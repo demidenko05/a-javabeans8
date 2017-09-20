@@ -1,0 +1,9 @@
+site: http://www.beigesoft.org
+or https://sites.google.com/site/beigesoftware
+
+Adapted (moved from java.beans to ajava.beans) OpenJDK8 javabeans for Android.
+It's used by A-Jetty (Jetty 9.2 adapted for Android.)
+
+License:
+GNU General Public License, version 2, with the Classpath Exception
+http://openjdk.java.net/legal/gplv2+ce.html
