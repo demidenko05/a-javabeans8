@@ -9,6 +9,7 @@
   <name>OpenJDK8 javabeans for android.</name>
   <description>Adapted (moved from java.beans to ajava.beans) OpenJDK8 javabeans for Android. It's used by A-Jetty (Jetty 9.2 adapted for Android.)</description>
   <url>http://www.beigesoft.org</url>
+  <inceptionYear>2017</inceptionYear>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -49,7 +50,7 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-gpg-plugin</artifactId>
-            <version>1.5</version>
+            <version>1.6</version>
             <executions>
               <execution>
                 <id>sign-artifacts</id>
@@ -57,6 +58,10 @@
                 <goals>
                   <goal>sign</goal>
                 </goals>
+                <configuration>
+                  <keyname>48E407CA</keyname>
+                  <passphraseServerId>48E407CA</passphraseServerId>
+                </configuration>
               </execution>
             </executions>
           </plugin>
@@ -68,6 +73,24 @@
   <build>
     <finalName>${project.artifactId}</finalName>
     <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-gpg-plugin</artifactId>
+        <version>1.6</version>
+        <executions>
+          <execution>
+            <id>sign-artifacts</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>sign</goal>
+            </goals>
+            <configuration>
+              <keyname>48E407CA</keyname>
+              <passphraseServerId>48E407CA</passphraseServerId>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-resources-plugin</artifactId>
