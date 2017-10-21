@@ -4,7 +4,7 @@
 
   <groupId>com.github.demidenko05</groupId>
   <artifactId>a-javabeans8</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2-SNAPSHOT</version>
   
   <name>OpenJDK8 javabeans for android.</name>
   <description>Adapted (moved from java.beans to ajava.beans) OpenJDK8 javabeans for Android. It's used by A-Jetty (Jetty 9.2 adapted for Android.)</description>
@@ -202,7 +202,7 @@
     <url>https://github.com/demidenko05/a-javabeans8.git</url>
     <connection>scm:git:git@github.com:demidenko05/a-javabeans8.git</connection>
     <developerConnection>scm:git:git@github.com:demidenko05/a-javabeans8.git</developerConnection>
-    <tag>a-javabeans8-1.0.1</tag>
+    <tag>HEAD</tag>
   </scm>
 
 </project>
