@@ -73,8 +73,8 @@ public class AnnotationType {
     /**
      * Returns an AnnotationType instance for the specified annotation type.
      *
-     * @throw IllegalArgumentException if the specified class object for
-     *     does not represent a valid annotation type
+     * it may throw IllegalArgumentException if the specified class object for
+     *     does not represent a valid annotation type.
      */
     public static AnnotationType getInstance(
         Class<? extends Annotation> annotationClass)

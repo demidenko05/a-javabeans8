@@ -103,7 +103,7 @@ public class WildcardTypeImpl extends LazyReflectiveObjectGenerator
      * <p>For each upper bound B :
      * <ul>
      *  <li>if B is a parameterized type or a type variable, it is created,
-     *  (see {@link #ParameterizedType} for the details of the creation
+     *  (see {@link java.lang.reflect.ParameterizedType} for the details of the creation
      *  process for parameterized types).
      *  <li>Otherwise, B is resolved.
      * </ul>
@@ -146,7 +146,7 @@ public class WildcardTypeImpl extends LazyReflectiveObjectGenerator
      * <p>For each lower bound B :
      * <ul>
      *   <li>if B is a parameterized type or a type variable, it is created,
-     *   (see {@link #ParameterizedType} for the details of the creation
+     *   (see {@link java.lang.reflect.ParameterizedType} for the details of the creation
      *   process for parameterized types).
      *   <li>Otherwise, B is resolved.
      * </ul>

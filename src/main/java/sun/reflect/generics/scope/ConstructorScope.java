@@ -58,7 +58,7 @@ public class ConstructorScope extends AbstractScope<Constructor<?>> {
     /**
      * Factory method. Takes a <tt>Constructor</tt> object and creates a
      * scope for it.
-     * @param m - A Constructor whose scope we want to obtain
+     * @param c - A Constructor whose scope we want to obtain
      * @return The type-variable scope for the constructor m
      */
     public static ConstructorScope make(Constructor<?> c) {

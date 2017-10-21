@@ -49,7 +49,7 @@ public abstract class AbstractScope<D extends GenericDeclaration>
     /**
      * Constructor. Takes a reflective object whose scope the newly
      * constructed instance will represent.
-     * @param D - A generic declaration whose scope the newly
+     * @param decl - A generic declaration whose scope the newly
      * constructed instance will represent
      */
     protected AbstractScope(D decl){ recvr = decl;}
