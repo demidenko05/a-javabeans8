@@ -12,15 +12,15 @@
     <fileSet>
       <useDefaultExcludes>false</useDefaultExcludes>
       <includes>
-        <include>/src/**</include>
-        <include>/.gitignore</include>
-        <include>/README.txt</include>
-        <include>/LICENSE</include>
-        <include>/ASSEMBLY_EXCEPTION</include>
-        <include>/THIRD_PARTY_README</include>
-        <include>/pom.xml</include>
-        <include>/assembly.xml</include>
-        <include>/maven-central-deploy.sh</include>
+        <include>${file.separator}src${file.separator}**</include>
+        <include>${file.separator}.gitignore</include>
+        <include>${file.separator}README.txt</include>
+        <include>${file.separator}LICENSE</include>
+        <include>${file.separator}ASSEMBLY_EXCEPTION</include>
+        <include>${file.separator}THIRD_PARTY_README</include>
+        <include>${file.separator}pom.xml</include>
+        <include>${file.separator}assembly.xml</include>
+        <include>${file.separator}maven-central-deploy.sh</include>
       </includes>
     </fileSet>
   </fileSets>
